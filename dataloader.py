@@ -48,6 +48,7 @@ def get_imagenet(path, args):
     return train_loader, test_loader
 
 def get_dataloader(args):
+    # get dataloader
     if args.dataset.lower()=='cifar10':
         return get_cifar10(args.data_path, args)
     elif args.dataset.lower()=='imagenet':

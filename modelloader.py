@@ -1,6 +1,7 @@
 from network import *
 
 def get_model(args):
+    # init model
     if args.model.lower() == 'vgg19':
         return VGG('VGG19')
     elif args.model.lower() == 'wrn28-10':

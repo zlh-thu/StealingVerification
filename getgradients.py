@@ -31,6 +31,7 @@ def collect_grads(grads_dict, avg_pool=False, pool_thresh=5000):
 
 
 def get_gradients(model, train_loader, optimizer, device):
+    # get gradient vector from model
     gradients_list = []
     model.eval()
     for batch_idx, (data, target) in enumerate(train_loader):
