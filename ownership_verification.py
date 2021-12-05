@@ -228,7 +228,6 @@ if __name__ == '__main__':
     else:
         raise('no such dataset')
 
-
     print(args)
 
     if args.gpu != -1:
