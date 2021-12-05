@@ -1,7 +1,8 @@
 # Defending against Model Stealing Attacks via Verifying Embedded External Features
 
-This repository is the official PyTorch implementation of [Defending against Model Stealing Attacks via
-Verifying Embedded External Features]() presented at AAAI 2022. 
+This is the official implementation of our paper [Defending against Model Stealing Attacks via
+Verifying Embedded External Features](), accepted by the AAAI Conference on Artificial Intelligence (AAAI), 2022. This research project is developed based on Python 3 and Pytorch, created by [Yiming Li](http://liyiming.tech/) and Linghui Zhu.
+
 
 
 ## Pipeline
