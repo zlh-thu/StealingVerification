@@ -47,8 +47,6 @@ if __name__ == '__main__':
         raise('no such dataset')
 
 
-
-
     print(args)
     torch.manual_seed(args.seed)
     torch.cuda.manual_seed(args.seed)
