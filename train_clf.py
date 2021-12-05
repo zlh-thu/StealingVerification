@@ -72,9 +72,6 @@ if __name__ == '__main__':
     else:
         raise('no such dataset')
 
-
-
-
     print(args)
 
     torch.manual_seed(args.seed)
