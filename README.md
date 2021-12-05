@@ -39,18 +39,11 @@ data
 ├── cifar10  
 │   ├── train
 │   └── test
-├── mixcifar10_seurat_10%
-│   ├── train
-│   └── test
 ├── subimage_seurat_10%
 │   ├── train
 |   ├── val
 │   └── test
 ├── sub-imagenet-20
-│   ├── train
-|   ├── val
-│   └── test
-├── mixsubimagenet_seurat_10%
 │   ├── train
 |   ├── val
 │   └── test
