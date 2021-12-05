@@ -4,6 +4,7 @@ from dataloader import get_imagenet
 
 
 def feature_data(args):
+    # get feature embedded images 
     if args.dataset == 'cifar10':
         train_f_loader, _ = get_cifar10(args.data_f_path, args)
     elif args.dataset == 'imagenet':
