@@ -9,7 +9,7 @@ from getgradients import get_gradients_set
 from network import mlp
 import os
 
-os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+# os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
 CIFAR10_GRAD_ROOT = {'source':'./model/victim/vict-wrn28-10.pt',
                 'distillation':'./model/attack/atta-d-wrn16-1.pt',
@@ -90,8 +90,10 @@ if __name__ == '__main__':
     device = 'cuda' if args.gpu != -1 else 'cpu'
 
     print('load gradients of victim and benign')
-    vict_g = np.sign(np.load(args.v_g_f_path))  # victim
-    benign_g = np.sign(np.load(args.i_g_f_path))  # benign
+    # sign vector of gradients of victim model
+    vict_g = np.sign(np.load(args.v_g_f_path))
+    # sign vector of gradients of benign model
+    benign_g = np.sign(np.load(args.i_g_f_path))  
 
     # split train & test set for training clf
     train_vict_g, test_vict_g, train_benign_g, test_benign_g = split_train_test(vict_g, benign_g)
@@ -116,7 +118,6 @@ if __name__ == '__main__':
         best_mlp_path = "model/clf/gradsign-%s-%s.pt" % (args.dataset, args.model_type)
         if acc > best_acc:
             best_acc = acc
-            # torch.save(clf.state_dict(), "model/clf/gradsign-%s-%s-%s.pt" % (args.dataset, args.model_type, str(round(best_acc, 2))))
             torch.save(clf.state_dict(), best_mlp_path)
 
     print("Test on Victim best acc=%.6f" % best_acc)

@@ -13,6 +13,7 @@ def feature_data(args):
 
 
 def split_train_test(vict_g, benign_g, scale=0.8, shuffle=False):
+    # split the train & test set for training clf
     indices_vict = np.arange(len(vict_g))
     indices_benign = np.arange(len(benign_g))
 
@@ -45,7 +46,6 @@ def split_train_test(vict_g, benign_g, scale=0.8, shuffle=False):
     for id in indices_test_benign_g:
         test_benign_g.append(benign_g[id])
 
-    # keep balance
     test_vict_g = test_vict_g[:test_num]
     test_benign_g = test_benign_g[:test_num]
 

@@ -16,7 +16,7 @@ from scipy import stats
 from scipy.stats import hmean
 import random
 
-os.environ["CUDA_VISIBLE_DEVICES"] = "1"
+# os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
 CIFAR10_MODEL = {'source':'wrn28-10',
                 'distillation':'wrn16-1',

@@ -9,7 +9,7 @@ from modelloader import get_model
 from getgradients import get_gradients
 import os
 
-os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+# os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
 
 if __name__ == '__main__':
@@ -76,7 +76,7 @@ if __name__ == '__main__':
 
 
     print('get gradients from model')
-    # get data with feature
+    # get feature embedded images
     train_f_loader = feature_data(args)
 
     # get gradients from model
