@@ -4,7 +4,7 @@ This repository is the official PyTorch implementation of [Defending against Mod
 Verifying Embedded External Features]() presented at AAAI 2022. The codes are of the verification process.
 
 ## Pipeline
-![Pipeline](https://github.com/zlh-thu/StealingVerification/blob/main/images/pipeline.pdf)
+![Pipeline](https://github.com/zlh-thu/StealingVerification/blob/main/images/pipeline.png)
 
 
 ## Requirements
