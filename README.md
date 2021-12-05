@@ -1,7 +1,8 @@
 # Defending against Model Stealing Attacks via Verifying Embedded External Features
 
 This repository is the official PyTorch implementation of [Defending against Model Stealing Attacks via
-Verifying Embedded External Features]() presented at AAAI 2022. The codes are of the verification process.
+Verifying Embedded External Features]() presented at AAAI 2022. 
+
 
 ## Pipeline
 ![Pipeline](https://github.com/zlh-thu/StealingVerification/blob/main/images/pipeline.png)
@@ -136,3 +137,15 @@ python ownership_verification.py --mode=fine-tune --dataset=cifar10 --gpu=0
 
 result:  p-val: 1.9594572166549425e-08 mu: 0.47074130177497864
 ```
+
+## Reference
+If our work or this repo is useful for your research, please cite our paper as follows:
+```
+@inproceedings{zhu2021defending,
+  title={Defending against Model Stealing via Verifying Embedded External Features},
+  author={Li, Yiming and Zhu, Linghui and Jia, Xiaojun and Jiang, Yong and Xia, Shu-Tao and Cao, Xiaochun},
+  booktitle={AAAI},
+  year={2022}
+}
+```
+
