@@ -142,7 +142,7 @@ result:  p-val: 1.9594572166549425e-08 mu: 0.47074130177497864
 ## Reference
 If our work or this repo is useful for your research, please cite our paper as follows:
 ```
-@inproceedings{zhu2021defending,
+@inproceedings{li2022defending,
   title={Defending against Model Stealing via Verifying Embedded External Features},
   author={Li, Yiming and Zhu, Linghui and Jia, Xiaojun and Jiang, Yong and Xia, Shu-Tao and Cao, Xiaochun},
   booktitle={AAAI},
