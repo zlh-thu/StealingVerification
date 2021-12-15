@@ -1,7 +1,7 @@
 # Defending against Model Stealing Attacks via Verifying Embedded External Features
 
 This is the official implementation of our paper [Defending against Model Stealing Attacks via
-Verifying Embedded External Features](https://www.researchgate.net/publication/356717751_Defending_against_Model_Stealing_via_Verifying_Embedded_External_Features), accepted by the AAAI Conference on Artificial Intelligence (AAAI), 2022. This research project is developed based on Python 3 and Pytorch, created by [Yiming Li](http://liyiming.tech/) and Linghui Zhu.
+Verifying Embedded External Features](https://www.researchgate.net/publication/356717751_Defending_against_Model_Stealing_via_Verifying_Embedded_External_Features), accepted by the AAAI Conference on Artificial Intelligence (AAAI), 2022. This research project is developed based on Python 3 and Pytorch, created by [Yiming Li](http://liyiming.tech/) and [Linghui Zhu](https://github.com/zlh-thu).
 
 
 
