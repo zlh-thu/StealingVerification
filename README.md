@@ -6,7 +6,7 @@ Verifying Embedded External Features](https://www.researchgate.net/publication/3
 
 
 ## Pipeline
-![Pipeline](https://github.com/zlh-thu/StealingVerification/blob/main/images/pipeline.png)
+![Pipeline](https://github.com/zlh-thu/StealingVerification/blob/main/pipeline.png)
 
 
 ## Requirements
