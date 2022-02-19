@@ -5,10 +5,6 @@ Verifying Embedded External Features](https://www.researchgate.net/publication/3
 
 
 
-## Pipeline
-![Pipeline](https://github.com/zlh-thu/StealingVerification/blob/main/pipeline.png)
-
-
 ## Reference
 If our work or this repo is useful for your research, please cite our paper as follows:
 ```
@@ -19,6 +15,11 @@ If our work or this repo is useful for your research, please cite our paper as f
   year={2022}
 }
 ```
+
+
+
+## Pipeline
+![Pipeline](https://github.com/zlh-thu/StealingVerification/blob/main/pipeline.png)
 
 
 
