@@ -9,6 +9,19 @@ Verifying Embedded External Features](https://www.researchgate.net/publication/3
 ![Pipeline](https://github.com/zlh-thu/StealingVerification/blob/main/pipeline.png)
 
 
+## Reference
+If our work or this repo is useful for your research, please cite our paper as follows:
+```
+@inproceedings{li2022defending,
+  title={Defending against Model Stealing via Verifying Embedded External Features},
+  author={Li, Yiming and Zhu, Linghui and Jia, Xiaojun and Jiang, Yong and Xia, Shu-Tao and Cao, Xiaochun},
+  booktitle={AAAI},
+  year={2022}
+}
+```
+
+
+
 ## Requirements
 
 To install requirements:
@@ -139,14 +152,4 @@ python ownership_verification.py --mode=fine-tune --dataset=cifar10 --gpu=0
 result:  p-val: 1.9594572166549425e-08 mu: 0.47074130177497864
 ```
 
-## Reference
-If our work or this repo is useful for your research, please cite our paper as follows:
-```
-@inproceedings{li2022defending,
-  title={Defending against Model Stealing via Verifying Embedded External Features},
-  author={Li, Yiming and Zhu, Linghui and Jia, Xiaojun and Jiang, Yong and Xia, Shu-Tao and Cao, Xiaochun},
-  booktitle={AAAI},
-  year={2022}
-}
-```
 
